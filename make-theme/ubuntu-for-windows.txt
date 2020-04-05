@@ -1,0 +1,29 @@
+-- ubuntu for windows styling --
+
+# INSTRUCTIONS #
+1. open the ubuntu for windows shell
+2. right-click the top bar
+3. select "Properties"
+4. go to the "Colors" tab
+5. there are 16 colors in the color palette. each corresponds to coloring some part of the shell.
+   the following colors are laid out in the same order as they are meant to go in the palette.
+   click on each of them and change the rgb values to match the given values below
+
+- background: rgb(22,39,51)
+- highlighted text foreground: rgb(44,68,89)
+- highlighted text background / github green: rgb(127,207,124)
+- ?: 
+- error / github red: rgb(239,127,126)
+- ?: 
+- ?: 
+- ?: 
+- ?: 
+- current directory: rgb(84,131,170)
+- login name: rgb(205,127,154)
+- ?:
+- ?:
+- ?:
+- ?:
+- ?: 
+
+6. set the opacity to 94%, if you want

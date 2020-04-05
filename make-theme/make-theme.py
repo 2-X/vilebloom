@@ -14,16 +14,17 @@ def gen_theme(name):
     template = read_file("template.json")
 
     vilebloom_palette = [
-        "#13212B",  # 0. background dark
-        "#162733",  # 1. background light
-        "#2C4459",  # 2. darkest blue
-        "#EF7F7E",  # 3. red
-        "#CD7F9A",  # 4. magenta
-        "#F5BD9B",  # 5. sunset orange
-        "#5483AA",  # 6. blue
-        "#3C5E7A",  # 7. darker blue
-        "#C5BCBA",  # 8. stone gray
-        "#DFD9D8",  # 9. light gray
+        "#13212B",  # 0. background dark   - rgb(19,33,43)
+        "#162733",  # 1. background light  - rgb(22,39,51)
+        "#2C4459",  # 2. darkest blue      - rgb(44,68,89)
+        "#EF7F7E",  # 3. red               - rgb(239,127,126)
+        "#CD7F9A",  # 4. magenta           - rgb(205,127,154)
+        "#F5BD9B",  # 5. sunset orange     - rgb(245,189,155)
+        "#5483AA",  # 6. blue              - rgb(84,131,170)
+        "#3C5E7A",  # 7. darker blue       - rgb(60,94,122)
+        "#C5BCBA",  # 8. stone gray        - rgb(197,188,186)
+        "#DFD9D8",  # 9. light gray        - rgb(223,217,216)
+        "#7fcf7c",  # 10. green            - rgb(127,207,124)
     ]
 
     replacements = {
