@@ -1,0 +1,5 @@
+to get a hex color like 2C4459 in to the DWORD format, you:
+1. split it up into the RGB values - 2C 44 59
+2. then you swap the first and the last values - 59 44 2C
+3. then you add FF at the beginning: FF 59 44 2C
+4. your new DWORD color is FF59442C, enjoy :)
