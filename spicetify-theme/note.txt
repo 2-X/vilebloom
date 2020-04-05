@@ -1,0 +1,3 @@
+I am using this to style spotify on Windows: https://github.com/khanhas/spicetify-cli/
+
+The folder 'Vilebloom' should go into the C:/Users/NAME/spicetify-cli/Themes folder OR the Mac/Linux equivalent
