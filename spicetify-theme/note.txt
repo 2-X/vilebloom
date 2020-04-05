@@ -1,3 +1,7 @@
 I am using this to style spotify on Windows: https://github.com/khanhas/spicetify-cli/
 
 The folder 'Vilebloom' should go into the C:/Users/NAME/spicetify-cli/Themes folder OR the Mac/Linux equivalent
+
+Then you just run the command `spicetify config current_theme Vilebloom`
+
+More thorough instructions: https://www.ghacks.net/2019/10/25/how-to-customize-spotify-with-spicetify-cli-themes/
