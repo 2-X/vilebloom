@@ -2,7 +2,11 @@
 
 How to set the Vilebloom color palette for the Ubuntu for Windows shell or Command Prompt
 
-# INSTRUCTIONS #
+# EASY WAY INSTRUCTIONS #
+1. copy the shortcut named "Terminal". note that windows saves color and layout settings in shortcuts!
+2. redirect it to your Command Prompt or Ubuntu for Windows. when you open them using this shortcut, it will be styled correctly!
+
+# HARD WAY INSTRUCTIONS #
 1. open the Ubuntu for Windows shell or Command Prompt
 2. right-click the top bar
 3. select "Properties"

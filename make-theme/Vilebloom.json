@@ -91,7 +91,7 @@
     "terminal.ansiBrightYellow": "#C5BCBA",
     "terminal.ansiCyan": "#EF7F7E",
     "terminal.ansiGreen": "#CD7F9A",
-    "terminal.ansiMagenta": "#CD7F9A",
+    "terminal.ansiMagenta": "#4E5474",
     "terminal.ansiRed": "#F5BD9B",
     "terminal.ansiWhite": "#d7dae0",
     "terminal.ansiYellow": "#C5BCBA",
@@ -244,7 +244,7 @@
         "constant.regexp.xi"
       ],
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -305,7 +305,7 @@
         "support.type.object.hlsl"
       ],
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -442,7 +442,7 @@
         "punctuation.quasi.element"
       ],
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -569,7 +569,7 @@
         "keyword.operator.module"
       ],
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -589,13 +589,13 @@
         "punctuation.section.embedded"
       ],
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
       "scope": "token.debug-token",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -718,7 +718,7 @@
       "name": "php heredoc/nowdoc",
       "scope": "keyword.operator.heredoc.php,keyword.operator.nowdoc.php",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -732,7 +732,7 @@
       "name": "php regexp operator",
       "scope": "keyword.operator.regexp.php",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -802,14 +802,14 @@
       "name": "php instanceof",
       "scope": "keyword.operator.type.php",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
       "name": "error suppression",
       "scope": "keyword.operator.error-control.php",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -823,14 +823,14 @@
       "name": "laravel blade @",
       "scope": "text.html.laravel-blade source.php.embedded.line.html support.constant.laravel-blade",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
       "name": "laravel blade tag",
       "scope": "text.html.laravel-blade source.php.embedded.line.html entity.name.tag.laravel-blade",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -914,7 +914,7 @@
       "name": "Embedded",
       "scope": "punctuation.section.embedded.begin,punctuation.section.embedded.end",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -956,7 +956,7 @@
       "name": "[VSCODE-CUSTOM] Markdown Underline Link/Image",
       "scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -1046,14 +1046,14 @@
       "name": "emphasis md",
       "scope": "emphasis md",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
       "name": "markup Italic",
       "scope": "markup.italic, punctuation.definition.italic,todo.emphasis",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -1097,7 +1097,7 @@
       "name": "Selector",
       "scope": "meta.selector",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -1218,21 +1218,21 @@
       "name": "Source Js Keyword Operator Delete,source Js Keyword Operator In,source Js Keyword Operator Of,source Js Keyword Operator Instanceof,source Js Keyword Operator New,source Js Keyword Operator Typeof,source Js Keyword Operator Void",
       "scope": "keyword.operator.expression.delete,keyword.operator.expression.in,keyword.operator.expression.of,keyword.operator.expression.instanceof,keyword.operator.new,keyword.operator.expression.typeof,keyword.operator.expression.void",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
       "name": "Storage JS TS",
       "scope": "token.storage",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
       "name": "Storage",
       "scope": "storage",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -1253,7 +1253,7 @@
       "name": "Keyword Control",
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -1325,7 +1325,7 @@
       "name": "Packages",
       "scope": "token.package.keyword",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -1360,14 +1360,14 @@
       "name": "Keywords",
       "scope": "keyword",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
       "name": "Compound Assignment Operators",
       "scope": "keyword.operator.assignment.compound",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -1409,7 +1409,7 @@
       "name": "python logical",
       "scope": "keyword.operator.logical.python",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -1430,7 +1430,7 @@
       "name": "keyword.operator.sizeof.c",
       "scope": "keyword.operator.sizeof.c,keyword.operator.sizeof.cpp",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -1444,7 +1444,7 @@
       "name": "Other punctuation .c",
       "scope": "punctuation.separator.c,punctuation.separator.cpp",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -1458,7 +1458,7 @@
       "name": "C operator assignment",
       "scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c,keyword.operator.assignment.cpp,keyword.operator.comparison.cpp,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -1486,7 +1486,7 @@
       "name": "operator",
       "scope": "keyword.operator.delete",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -1527,7 +1527,7 @@
         "keyword.operator.expression.keyof"
       ],
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -1632,7 +1632,7 @@
       "name": "java instanceof",
       "scope": "keyword.operator.instanceof.java",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -1789,7 +1789,7 @@
       "name": "support.constant.edge",
       "scope": "support.constant.edge",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
@@ -1852,7 +1852,7 @@
       "name": "haskell variable generic-type",
       "scope": "variable.other.generic-type.haskell",
       "settings": {
-        "foreground": "#CD7F9A"
+        "foreground": "#4E5474"
       }
     },
     {
