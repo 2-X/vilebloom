@@ -18,6 +18,9 @@ Please note that screenshot is taken while using these settings:
     "editor.lineHeight": 26,
 ```
 
+Link to the font: https://datagoblin.itch.io/monogram
+Note that there is no support for unicode characters :(
+
 ## Features
 
 That's the list of things I wanted to focus on while developing vilebloom:

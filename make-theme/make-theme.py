@@ -38,6 +38,7 @@ def gen_theme(name):
         "#d19a66": vilebloom_palette[8], # undefined and such
         "#c678dd": vilebloom_palette[4], # that purple for keywords
         "#e5c07b": vilebloom_palette[8], # the yellow class names and keyword "this"
+        "#abb2bf": vilebloom_palette[5], # variables in Python
     }
 
     for search, replacement in replacements.items():
