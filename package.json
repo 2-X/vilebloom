@@ -1,0 +1,41 @@
+{
+    "name": "vilebloom",
+    "displayName": "Vilebloom",
+    "description": "Vilebloom-inspired color scheme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "brethower-k",
+    "license": "CC0-1.0",
+    "author": {
+        "name": "Kris Brethower",
+        "url": "http://github.com/claudioc"
+    },
+    "keywords": [
+        "visual studio code",
+        "themes",
+        "color theme",
+        "theming",
+        "extension"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brethower-k/vscode-vilebloom.git"
+    },
+    "bugs": {
+        "url": "https://github.com/brethower-k/vscode-vilebloom/issues"
+    },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Vilebloom",
+                "uiTheme": "vs-dark",
+                "path": "./make-theme/Vilebloom.json"
+            }
+        ]
+    }
+}
