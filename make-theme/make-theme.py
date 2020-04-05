@@ -37,7 +37,7 @@ def gen_theme(name):
         "#e06c75": vilebloom_palette[5],  # variable names
         "#56b6c2": vilebloom_palette[3],  # the cyan color for operators and such
         "#d19a66": vilebloom_palette[8],  # undefined and such
-        "#c678dd": vilebloom_palette[11], # that purple for keywords
+        "#c678dd": vilebloom_palette[4], # that purple for keywords
         "#e5c07b": vilebloom_palette[8],  # the yellow class names and keyword "this"
         "#abb2bf": vilebloom_palette[5],  # variables in Python
     }
