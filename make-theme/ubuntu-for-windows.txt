@@ -1,7 +1,9 @@
 -- ubuntu for windows styling --
 
+How to set the Vilebloom color palette for the Ubuntu for Windows shell or Command Prompt
+
 # INSTRUCTIONS #
-1. open the ubuntu for windows shell
+1. open the Ubuntu for Windows shell or Command Prompt
 2. right-click the top bar
 3. select "Properties"
 4. go to the "Colors" tab
