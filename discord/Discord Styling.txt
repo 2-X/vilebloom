@@ -1,0 +1,10 @@
+https://rauenzi.github.io/BetterDiscordApp/
+
+1. Once you install this, then you can go into Settings > Bandaged BD > Themes
+
+2. Click on the "Show Theme Folder" button
+(This should open "C:\Users\Kris\AppData\Roaming\BetterDiscord\themes")
+
+3. Copy the Vilebloom.theme file into it!
+
+
