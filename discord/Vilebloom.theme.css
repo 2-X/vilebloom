@@ -68,12 +68,12 @@ div[aria-label="Add Friend"] {
 
 /* usernames under the channel names :) */
 .username-lm8y6T {
-    color: #F5BD9B !important;
+    color: #ffffff !important;
 }
 
-/* usernames */
+/* usernames in home page on left hand side */
 .name-uJV0GL {
-    color: #F5BD9B !important;
+    color: #ffffff !important;
 }
 
 /* ping icon next to "Voice Connected" */
@@ -143,7 +143,7 @@ rect[mask="url(#151d9587-8b18-4540-a785-700de5edcf47)"] {
 
 /* status icon on profile picture */
 .da-avatar rect {
-    fill: #F5BD9B;
+    fill: #CD7F9A;
 }
 
 /* online dots in server discovery */
