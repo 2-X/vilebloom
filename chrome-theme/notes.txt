@@ -1,0 +1,9 @@
+created with https://www.themebeta.com/chrome-theme-creator-online.html
+
+Installation:
+1. Go to chrome://extension
+2. Enable "Developer Mode" in the top right
+3. Click "Load Unpacked"
+4. Select the chrome-theme folder here
+5. ???
+6. Profit :)
