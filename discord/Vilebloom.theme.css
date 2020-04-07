@@ -5,31 +5,164 @@
  * @description A Vileplume-inspired theme for Discord.
  * @source https://github.com/brethower-k/vilebloom
  * @authorId 583062692596547585
- * @author mario
+ * @author kris
  * @donate https://paypal.me/zzzmario
  * @invite HHWfdgf
 
 **/
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
+@import url("https://gibbu.github.io/BetterDiscord-Themes/AdjustableServerWidth/base.css");
 
 :root {
+    /* the classic blurple color */
+	--accentcolor: 205,127,154;		/* blurple - default: 114,137,218 */
+	--linkcolor: 84,131,170;		/* link - default: 0,176,244 */
+
+    /* everything else */
     --background-dark-primary: #162733 !important;		
     --background-dark-secondary: #13212B !important;		
-    --background-dark-tertiary: #000000 !important;	
+    --background-dark-tertiary: #0f1921 !important;	
     --background-primary: #162733 !important;	
     --background-secondary: #13212B !important;	
-    --background-tertiary: #000000 !important;	
+    --background-tertiary: #0f1921 !important;	
     --background-floating: black !important;
-    --background-modifier-hover: rgba(50,50,50,0.16) !important;	
-    --background-modifier-active: rgba(50,50,50,0.24) !important;	
-    --background-modifier-selected: rgba(50,50,50,0.32) !important;	
+    --background-modifier-hover: rgba(15, 25, 33, 1) !important;	
+    --background-modifier-active: rgba(15, 25, 33, 1) !important;	
+    --background-modifier-selected: rgba(15, 25, 33, 0.5) !important;	
     --background-modifier-accent: hsla(0,0%,100%,0.06) !important;
-    --bd-blue: #7289da !important;
-    --bd-blue-hover: #677bc4 !important;
-    --bd-blue-active: #5b6eae !important;
+
+    /* server icon width */
+    --server-icon-size: 50px; /* Size of the server icons | DEFAULT: 35px */
+    --server-icon-spacing: 15px; /* Spacing between server icons. Negative values are allowed | DEFAULT: 8px */
+    --server-container-padding: 15px; /* Spacing to the left and right sides of server icons | DEFAULT: 10px */
+}
+
+div[aria-label="Add Friend"] {
+    background-color: #EF7F7E !important;
+}
+
+/* message text color */
+.da-messageContent {
+    color: #DFD9D8; 
+}
+ 
+/* people's usernames above messages IF they have a role */
+.da-username[style] {
+    color: #EF7F7E !important;
+}
+
+/* people's usernames above messages normally */
+.da-username {
+    color: #EF7F7E !important;
+}
+
+/* "Voice Connected" */
+.rtcConnectionStatusConnected-VRZDjy {
+    color: #CD7F9A !important;
+}
+
+/* channel names */
+.name-3_Dsmg {
+    color: #CD7F9A !important;
+}
+
+/* usernames under the channel names :) */
+.username-lm8y6T {
+    color: #F5BD9B !important;
+}
+
+/* usernames */
+.name-uJV0GL {
+    color: #F5BD9B !important;
+}
+
+/* ping icon next to "Voice Connected" */
+.da-ping {
+    filter: invert(84%) !important;
+}
+
+/* phone icons */
+.da-iconContainer {
+    filter: invert(80%);
+}
+
+/* status under usernames */
+.da-subtext {
+    color: #DFD9D8 !important;
+}
+
+/* your name in the bottom left */
+.da-title {
+    color: #CD7F9A !important;
+}
+
+/* don't remember */
+.da-circleIconButton {
+    color: #CD7F9A;
+}
+
+/* search icon on hover */
+.circleIconButton-jET_ig.selected-ugP_am {
+    background-color: #CD7F9A !important;
+    color: white !important;
+}
+
+/* some green-colored things, like the join button */
+.colorGreen-29iAKY {
+    background-color: #CD7F9A !important;
+}
+
+/* add server right side image */
+.actionIcon-2IISM_ {
+    background: #CD7F9A !important;
+}
+
+/* server icon audio overlay */
+img .da-icon {
+    filter: invert(100%);
+}
+
+/* hide right bar in "friends" page */
+.da-nowPlayingColumn {
+    display: none;
+}
+
+/* chat bar at the bottom */
+.scrollableContainer-2NUZem {
+    background-color: #0F1921 !important;
+}
+
+/* hide "public" button underneath the discord logo */
+#bd-pub-li {
+    display: none;
+}
+
+rect[mask="url(#151d9587-8b18-4540-a785-700de5edcf47)"] {
+    fill: #CD7F9A;
+}
+
+/* status icon on profile picture */
+.da-avatar rect {
+    fill: #F5BD9B;
+}
+
+/* online dots in server discovery */
+.da-dotOnline {
+    background-color: #CD7F9A;
+}
+
+/* status icons in the drop-up status selection */
+.da-status[style] {
+    background-color: #CD7F9A !important;
+}
+
+/* green circle around profile pic when speaking */
+.avatarSpeaking-3MqCHL {
+    box-shadow: inset 0 0 0 2px #5483AA,inset 0 0 0 3px var(--background-secondary)
 }
 
 .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {
-    background-color: #242424 !important;
+    background-color: #162733 !important;
     border-color: transparent !important;
 }
 
@@ -43,13 +176,13 @@
 }
 
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
-    background-color: #111111; !important;
-    border: 4px solid #141414 !important;
+    background-color: #0f1921; !important;
+    border: 4px solid #0f1921 !important;
     border-radius: 8px !important;
 }
 
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-    background-color: #242424 !important;
+    background-color: #162733 !important;
     border-color: transparent; !important;
 }
 
@@ -72,7 +205,7 @@
 }
 
 .scrollableContainer-2NUZem::-webkit-scrollbar-thumb {
-    background-color: #111111; !important;
+    background-color: #13212B; !important;
     border-color: transparent; !important;
 }
 	
@@ -81,7 +214,7 @@
 }
 
 .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {
-    background-color: #0c0c0c;
+    background-color: #0f1921;
     color: hsla(0,0%,100%,.8);
 }
 
@@ -397,7 +530,7 @@
 .theme-dark .hasMoreButton-1MELpI {
     background: var(--background-secondary);
     border-color: #2f3136;
-    color: #7289da;
+    color: var(--bd-blue);
 }
 
 .theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
@@ -591,7 +724,7 @@
 }
 
 .menu-Sp6bN1 {
-	background-color: #0c0c0c !important;
+	background-color: #0f1921 !important;
 	border: 2px solid white;
 }
 
@@ -759,7 +892,7 @@
 }
 
 .theme-dark .theme-light .footer-3rDWdC {
-    background: #111111 !important;
+    background: #13212B !important;
     box-shadow: none;
 }
 
@@ -802,7 +935,7 @@
 .regionSelect-3lf4eE button {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-weight: 500;
-    color: #7289da;
+    color: var(--bd-blue);
     font-size: 14px;
     border: 0;
     border-left: none;
@@ -1152,7 +1285,7 @@ html:not(.platform-win).theme-light #user-settings .item-PXvHYJ:nth-of-type(19),
 }
 
 .theme-dark .notches-1sAcEM.gray-3_LNYR {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%23141414'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%230f1921'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E")
 }
 
 .theme-dark .perksModal-fSYqOq {
@@ -1301,7 +1434,7 @@ html:not(.platform-win).theme-light #user-settings .item-PXvHYJ:nth-of-type(19),
 }
 
 .selectorButtonSelected-1j4DmC {
-    background-color: #7289da !important;
+    background-color: var(--bd-blue) !important;
 }
 
 .theme-dark .root-1gCeng {
@@ -1317,7 +1450,7 @@ html:not(.platform-win).theme-light #user-settings .item-PXvHYJ:nth-of-type(19),
 }
 
 .theme-dark .header-3ZP1MY, .theme-light .header-3ZP1MY {
-    color: #7289da !important;
+    color: var(--bd-blue) !important;
 }
 
 .theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse {

@@ -24,8 +24,9 @@ def gen_theme(name):
         "#3C5E7A",  # 7.  darker blue       - rgb(60,94,122)
         "#C5BCBA",  # 8.  stone gray        - rgb(197,188,186)
         "#DFD9D8",  # 9.  light gray        - rgb(223,217,216)
-        "#7FCF7C",  # 10. green            - rgb(127,207,124)
+        "#7FCF7C",  # 10. green             - rgb(127,207,124)
         "#4E5474",  # 11. purple
+        "#0F1921",  # 12. background darker  - rgb(15,25,33) 
     ]
 
     replacements = {
