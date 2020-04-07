@@ -12,14 +12,18 @@ Please note that screenshot is taken while using these settings:
     "bracket-pair-colorizer-2.colors": [
         "#5483AA",
     ],
-    "editor.letterSpacing": 0.4,
-    "editor.fontFamily": "monogramextended",
-    "editor.fontSize": 20,
+    "editor.letterSpacing": 0.5,
+    "editor.fontFamily": "PixelMPlus10",
+    "editor.fontSize": 14,
     "editor.lineHeight": 26,
 ```
 
 Link to the font: https://datagoblin.itch.io/monogram
 Note that there is no support for unicode characters :(
+
+If you want a font with support for Japanese, Russian, and Greek characters, use PixelMPlus10:
+Link to the font: http://itouhiro.hatenablog.com/entry/20130602/font
+(bonus: it has support for Japanese characters! ...but they're not monospace)
 
 ## Features
 
