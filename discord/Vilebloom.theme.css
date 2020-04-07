@@ -38,7 +38,7 @@
 }
 
 div[aria-label="Add Friend"] {
-    background-color: #EF7F7E !important;
+    background-color: rgb(150, 94, 113) !important;
 }
 
 /* message text color */
