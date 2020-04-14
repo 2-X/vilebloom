@@ -37,13 +37,17 @@
     --server-container-padding: 15px; /* Spacing to the left and right sides of server icons | DEFAULT: 10px */
 }
 
+.item-2hkk8m.da-item {
+    background: #DFD9D8 !important;
+}
+
 div[aria-label="Add Friend"] {
     background-color: rgb(150, 94, 113) !important;
 }
 
 /* message text color */
 .da-messageContent {
-    color: #DFD9D8; 
+    color: #DFD9D8;
 }
  
 /* people's usernames above messages IF they have a role */
