@@ -147,7 +147,7 @@ rect[mask="url(#151d9587-8b18-4540-a785-700de5edcf47)"] {
 
 /* status icon on profile picture */
 .da-avatar rect {
-    fill: #CD7F9A;
+    /* fill: #CD7F9A; */
 }
 
 /* online dots in server discovery */
@@ -157,7 +157,7 @@ rect[mask="url(#151d9587-8b18-4540-a785-700de5edcf47)"] {
 
 /* status icons in the drop-up status selection */
 .da-status[style] {
-    background-color: #CD7F9A !important;
+    /* background-color: #CD7F9A !important; */
 }
 
 /* green circle around profile pic when speaking */
