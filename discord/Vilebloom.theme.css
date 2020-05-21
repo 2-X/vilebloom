@@ -35,6 +35,17 @@
     --server-icon-size: 50px; /* Size of the server icons | DEFAULT: 35px */
     --server-icon-spacing: 15px; /* Spacing between server icons. Negative values are allowed | DEFAULT: 8px */
     --server-container-padding: 15px; /* Spacing to the left and right sides of server icons | DEFAULT: 10px */
+
+    /* members sidebar width */
+    --member-sidebar-width: 400px;
+}
+
+.da-members {
+    width: var(--member-sidebar-width) !important;
+}
+
+.da-layout {
+    width: var(--member-sidebar-width) !important;
 }
 
 .item-2hkk8m.da-item {
