@@ -38,7 +38,7 @@ body {
   -ms-transform: rotate(-40deg);
   -webkit-transform: rotate(-40deg);
   transform: rotate(-40deg);
-  top: 45px;
+  top: 46px;
   left: 38px;
 }
 .planet-container .shine::after {
@@ -54,7 +54,7 @@ body {
   -webkit-border-radius: 100px;
   border-radius: 100px;
   left: -78px;
-  top: -16px;
+  top: -17px;
 }
 .planet-container .shine-2, .planet-container .shine-2::after {
   position: absolute;
@@ -64,7 +64,7 @@ body {
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
   border-radius: 100px;
-  top: 65px;
+  top: 67px;
   left: 45.5px;
   -moz-transform: rotate(-55deg);
   -ms-transform: rotate(-55deg);
@@ -73,8 +73,8 @@ body {
 }
 .planet-container .shine-2::after {
   content: "";
-  top: 9px;
-  left: 43.5px;
+  top: 10px;
+  left: 45px;
   transform: rotate(206deg);
   width: 12px;
   height: 10px;
