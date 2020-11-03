@@ -137,11 +137,6 @@ img .da-icon {
     filter: invert(100%);
 }
 
-/* hide right bar in "friends" page */
-.da-nowPlayingColumn {
-    display: none;
-}
-
 /* chat bar at the bottom */
 .scrollableContainer-2NUZem {
     background-color: #0F1921 !important;
